@@ -8,6 +8,17 @@ client.on('ready', () => {
   console.log(`BOT: ${client.user.username} adı ile giriş yaptı!`);
 });
 
+client.on('ready', () => {
+    client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: 'f!yardım Bot aktif.',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
+});
+
 client.on('message', msg => {
   console.log(`LOG: S: ${msg.guild.name} M: ${msg.content} Y: ${msg.author.tag}`);
   if (msg.author.id === ayarlar.id) return;
