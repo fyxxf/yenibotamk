@@ -1,2 +1,1 @@
-worker npm install chalk
-
+worker node bot.js
