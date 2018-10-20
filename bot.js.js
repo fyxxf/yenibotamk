@@ -19,7 +19,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'ping') {
     msg.reply('Pong! **' + client.ping + '** ms');
   }
-  if (msg.content.toLowerCase() === prefix + 'sigaraic') {
+  if (msg.content.toLowerCase() === prefix + 'sas') {
     msg.send('Sigara İçiyorum!');
     msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
     msg.edit(' :smoking: :cloud: :cloud: ');
