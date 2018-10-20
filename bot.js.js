@@ -12,7 +12,7 @@ client.on('ready', () => {
     client.user.setStatus('available')
     client.user.setPresence({
         game: {
-            name: 'f!yardım Bot aktif.',
+            name: 'Bot 7/24 Aktif',
             type: "STREAMING",
             url: "https://www.twitch.tv/monstercat"
         }
